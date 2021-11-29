@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atm.css">
+</head>
+<body>
+    <h1 style="text-align: center;">LC BANK ATM</h1>
+    <div id="body" class="welcome">WELCOME TO LC BANK ATM SERVICES <br>
+        <button onclick="well()">WELCOME</button>
+    </div>
+
+    <div id="displaymoney">
+    <table border="2" width="400px" height="400px">
+        <tr>
+            <td width="10%"><button class="withdraw" onclick="drawl()">WITHDRAW</button></td>
+            <td width='90%' rowspan="4">  </td>
+            <td><button class="bal" onclick="bal()">BALANCE</button></td>
+        </tr>
+        <tr>
+            <td width="10%"><button class="depo" onclick="depo()">DEPOSIT</button></td>
+            <td><button class="airtime" onclick="airt()">AIRTIME</button></td>
+        </tr>
+        <tr>
+            <td><button class="trans" onclick="transf()">TRANSFER</button></td>
+            <td><button class="hist" onclick="hist()">HISTORY</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+    <div id="displayamt">
+        <table border="2" width="400px" height="400px">
+            <tr>
+                <td width="10%"><button class="withdraw2" onclick="atm()" id="show9">500</button></td>
+                <td width='90%' rowspan="4"> <div id="come"></div> </td>
+                <td><button class="bal" onclick="atm1()" id="show10">5000</button></td>
+            </tr>
+            <tr>
+                <td width="10%"><button class="" onclick="atm2()" id="show11">1000</button></td>
+                <td><button class="airtime" onclick="atm3()" id="show12">10000</button></td>
+            </tr>
+            <tr>
+                <td><button class="trans" onclick="atm4()" id="show13">2000</button></td>
+                <td><button class="hist" onclick="atm5()" id="show14">20000</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+<div id="deposit">
+    <table border="2" width="400px" height="400px">
+        <tr>
+            <td width="10%"><button id="show3" onclick="show2()" class="withdraw2">500</button></td>
+            <td width='90%' rowspan="4"> <div id="show"></div> </td>
+            <td><button id="show6" class="bal" onclick="posit3()">5000</button></td>
+        </tr>
+        <tr>
+            <td width="10%"><button id="show4" class="depo" onclick="posit()">1000</button></td>
+            <td><button id="show7" class="airtime" onclick="posit4()">10000</button></td>
+        </tr>
+        <tr>
+            <td><button id="show5" class="trans" onclick="posit2()">2000</button></td>
+            <td><button id="show8" class="hist" onclick="posit5()">20000</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+    <script src="atm.js"></script>
+</body>
+</html>

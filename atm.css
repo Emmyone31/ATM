@@ -1,0 +1,46 @@
+.welcome {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(93, 93, 146);
+    margin-left: 400px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    display: block;
+}
+
+.withdraw {
+    margin-top: -100px;
+}
+
+.withdraw2 {
+    margin-top: -100px;
+}
+
+#displaymoney {
+    display: none;
+    margin-left: 400px;
+    
+}
+
+#displayamt {
+    margin-left: 400px;
+    display: none;
+}
+
+#deposit {
+    margin-left: 400px;
+    display: none;
+}
+#show{
+    border: 1px solid black;
+    height: 200px;
+    margin-top: -180px;
+}
+#come{
+    border: 1px solid black;
+    height: 200px;
+    margin-top: -180px;
+}
